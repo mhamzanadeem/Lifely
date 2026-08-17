@@ -1,0 +1,405 @@
+   @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+    @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+ /*Font styling */
+    .band-name {
+        text-align: center;
+        margin: 0;
+        font-size: 4em;
+        font-family: 'Bree Serif', serif;
+        font-weight: normal;
+        color: white;
+    }
+
+    .band-name-large {
+        font-size: 8em;
+    }
+
+
+/*Button styling*/
+
+    .btn {
+        text-align: center;
+        vertical-align: middle;
+        padding: .67em .67em;
+        cursor: pointer;
+    }
+
+    .btn-header {
+        margin: .5em 15% 2em 15%;
+        color: white;
+        border: 2px solid #2D9CDB;
+        background-color: rgba(255, 255, 255, .1);
+        border-radius: 0;
+        font-size: 1.5em;
+        font-weight: lighter;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .btn-header:hover {
+        background-color: rgba(255, 255, 255, .3);
+    }
+
+    .btn-play {
+        display: block;
+        margin: 0 auto;
+        color: #2D9CDB;
+        font-size: 4em;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .btn-primary {
+        color: white;
+        background-color: #56CCF2;
+        border: none;
+        border-radius: .3em;
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        background-color: #2D9CDB;
+    }
+
+   
+/*Picture styling*/
+    .shop-item {
+        margin-left: 300px;
+        margin-right: 200px;
+    }
+
+    .shop-item-title {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.5em;
+        color: white;
+        margin-bottom: 15px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .shop-item-image {
+        height: 250px;
+        
+    }
+
+    .shop-item-details {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .shop-item-price {
+        
+        flex-grow: 1;
+        color:red;
+       
+    }
+
+    .shop-items {
+        display: flex;
+        
+        height: 500px;
+        width: 2000px;
+       
+    }
+
+/*Cart styling*/
+
+    .cart-header {
+        font-weight: bold;
+        font-size: 1.25em;
+        color:white;
+    }
+
+    .cart-column {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+        margin-right: 1.5em;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .cart-row {
+        display: flex;
+    }
+
+    .cart-item {
+        width: 45%;
+        color: white;
+        font-size: 2.5em;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .cart-price {
+        width: 20%;
+        color: white;
+        font-size: 2.5em;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .cart-quantity {
+        width: 35%;
+        color: white;
+        font-size: 2.5em;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .cart-item-title {
+        color: white;
+        margin-left: .5em;
+        font-size: 1.5em;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .cart-item-image {
+        width: 75px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .btn-danger {
+        color: white;
+        background-color: #EB5757;
+        border: none;
+        border-radius: .3em;
+        font-weight: bold;
+    }
+
+    .btn-danger:hover {
+        background-color: #CC4C4C;
+    }
+
+    .cart-quantity-input {
+        height: 50px;
+        width: 60px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: black;
+        padding: 0;
+        text-align: center;
+        font-size: 1em;
+        margin-right: 25px;
+    }
+
+    .cart-row:last-child {
+        border-bottom: 1px solid black;
+    }
+
+    .cart-row:last-child .cart-column {
+        border: none;
+    }
+
+    .cart-total {
+        text-align: end;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .cart-total-title {
+        font-weight: bold;
+        font-size: 2.5em;
+        color: white;
+        margin-right: 20px;
+    }
+
+    .cart-total-price {
+        color: white;
+        font-size: 2.5em;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .btn-purchase {
+        display: block;
+        margin: 40px auto 80px auto;
+        font-size: 1.75em;
+    }
+
+    /*Background color*/
+    body {
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+        background-color: #181818;
+    }
+    
+/*footer styling*/
+    .container {
+        max-width: 1170px;
+        margin: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .footer {
+        background-color: #24262b;
+        padding: 30px 0;
+    }
+    
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+    }
+    
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover {
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    
+    .footer-col .social-links a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    
+    .footer-col .social-links a:hover {
+        color: #24262b;
+        background-color: #ffffff;
+    }
+    
+    footer {
+        margin-top: 0px;
+        background: black;
+        color: white;
+        padding: 9px 20px;
+    }
+    
+    
+    /*responsive*/
+    @media(max-width: 767px) {
+        .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media(max-width: 574px) {
+        .footer-col {
+            width: 100%;
+        }
+    }
+
+    /*Navigation Bar*/
+    .navbar {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        padding: 20px 15px;
+        border-radius: 12px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .navbar li {
+        list-style: none;
+        margin: 0px 12px;
+        margin-left: 100px;
+    }
+    
+    .navbar li a {
+        position: relative;
+        color: #333;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 6px 0;
+        text-decoration: none;
+    }
+    
+    .navbar li a:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 0%;
+        background: #000000;
+        border-radius: 12px;
+        transition: all 0.4s ease;
+    }
+    
+    
+    .navbar li a:hover:before {
+        width: 100%;
+    }
+    
+    .navbar li.center a:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .navbar li.upward a:before {
+        width: 100%;
+        bottom: -5px;
+        opacity: 0;
+    }
+    
+    .navbar li.upward a:hover:before {
+        bottom: 0px;
+        opacity: 1;
+    }
+    
+    .navbar li.forward a:before {
+        width: 100%;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.4s ease;
+    }
+    
+    .navbar li.forward a:hover:before {
+        transform: scaleX(1);
+        transform-origin: left;
+    }

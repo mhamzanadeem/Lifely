@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo Bhai|Bree+Serif&display=swap" rel='stylesheet'>
+</head>
+
+<body>
+    <!------Navigation bar-->
+    <header>
+        <ul class="navbar">
+            <img src="images/logo.png" alt="logo" height="70" width="300">
+            <li class="right"><a href="login.html">Login</a></li>
+            <li class="center"><a href="index.html">Home</a></li>
+            <li class="upward"><a href="categories.html">Categories</a></li>
+            <li class="forward"><a href="payment.html">Payment</a></li>
+            <li class="forward"><a href="topseller.html">Top Selling</a></li>
+
+        </ul>
+    </header>
+
+    <!-------background music-->
+    <img class="background" src="images/payment1.jpg" alt="Aleq">
+
+    <!------Billing form----->
+    <div class="container1">
+
+        <form action="">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <h1 class="title">billing address</h1>
+
+                    <div class="inputBox">
+                        <h2>full name :</h2>
+                        <input type="text" placeholder="M.Hamza Nadeem">
+                    </div>
+                    <div class="inputBox">
+                        <h2>email :</h2>
+                        <input type="email" placeholder="i22XXXX@gmail.com">
+                    </div>
+                    <div class="inputBox">
+                        <h2>address :</h2>
+                        <input type="text" placeholder="House No - street - sector">
+                    </div>
+                    <div class="inputBox">
+                        <h2>city :</h2>
+                        <input type="text" placeholder="Islamabad">
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <h2>state :</h2>
+                            <input type="text" placeholder="Pakistan">
+                        </div>
+                        <div class="inputBox">
+                            <h2>zip code :</h2>
+                            <input type="text" placeholder="46000">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <h1 class="title">payment</h1>
+
+                    <div class="inputBox">
+                        <h2>cards accepted :</h2>
+                        <img src="images/cardpic.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <h2>name on card :</h2>
+                        <input type="text" placeholder="MR.M.Hamza ">
+                    </div>
+                    <div class="inputBox">
+                        <h2>credit card number :</h2>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="inputBox">
+                        <h2>exp month :</h2>
+                        <input type="text" placeholder="january">
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <h2>exp year :</h2>
+                            <input type="number" placeholder="2022">
+                        </div>
+                        <div class="inputBox">
+                            <h2>CVV :</h2>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-----Message Alert-->
+            <input type="submit" value="proceed to checkout" class="submit-btn"
+                onclick="alert('Email has been sent to your account' )">
+
+        </form>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contact information</h4>
+                    <ul>
+                        <li><a
+                                href="https://www.google.com/maps/dir/33.643317,73.0359964/FAST+National+University+of+Computer+and+Emerging+Sciences,+Islamabad+Campus,+FAST+University,+3+A.K.+Brohi+Road,+H-11%2F4+H+11%2F4+H-11,+Islamabad,+Islamabad+Capital+Territory/@33.6473722,73.0200476,13.75z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x38dfbe1faaaaaaab:0x223386a2985e88f4!2m2!1d73.0153768!2d33.6565377">Address</a>
+                        </li>
+                        <li><a href="#">Contact Number</a>0300-123456</li>
+                        <li><a href="https://mail.google.com/">Email Address</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

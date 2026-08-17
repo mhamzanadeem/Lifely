@@ -5,14 +5,14 @@
     .band-name {
         text-align: center;
         margin: 0;
-        font-size: 4em;
+        font-size: 3em;
         font-family: 'Bree Serif', serif;
         font-weight: normal;
         color: white;
     }
 
     .band-name-large {
-        font-size: 8em;
+        font-size: 4em;
     }
 
 
@@ -68,8 +68,7 @@
    
 /*Picture styling*/
     .shop-item {
-        margin-left: 300px;
-        margin-right: 200px;
+        margin: 10px auto;
     }
 
     .shop-item-title {
@@ -77,14 +76,14 @@
         width: 100%;
         text-align: center;
         font-weight: bold;
-        font-size: 2.5em;
+        font-size: 2em;
         color: white;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         font-family: 'Bree Serif', serif;
     }
 
     .shop-item-image {
-        height: 250px;
+        height: 200px;
         
     }
 
@@ -103,10 +102,9 @@
 
     .shop-items {
         display: flex;
-        
-        height: 500px;
-        width: 2000px;
-       
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px auto;
     }
 
 /*Cart styling*/
@@ -133,28 +131,28 @@
     .cart-item {
         width: 45%;
         color: white;
-        font-size: 2.5em;
+        font-size: 1.5em;
         font-family: 'Bree Serif', serif;
     }
 
     .cart-price {
         width: 20%;
         color: white;
-        font-size: 2.5em;
+        font-size: 1.5em;
         font-family: 'Bree Serif', serif;
     }
 
     .cart-quantity {
         width: 35%;
         color: white;
-        font-size: 2.5em;
+        font-size: 1.5em;
         font-family: 'Bree Serif', serif;
     }
 
     .cart-item-title {
         color: white;
         margin-left: .5em;
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-family: 'Bree Serif', serif;
     }
 
@@ -205,21 +203,21 @@
 
     .cart-total-title {
         font-weight: bold;
-        font-size: 2.5em;
+        font-size: 1.5em;
         color: white;
         margin-right: 20px;
     }
 
     .cart-total-price {
         color: white;
-        font-size: 2.5em;
+        font-size: 1.5em;
         font-family: 'Bree Serif', serif;
     }
 
     .btn-purchase {
         display: block;
-        margin: 40px auto 80px auto;
-        font-size: 1.75em;
+        margin: 20px auto 40px auto;
+        font-size: 1.5em;
     }
 
     /*Background color*/
@@ -227,6 +225,7 @@
         line-height: 1.5;
         font-family: 'Poppins', sans-serif;
         background-color: #181818;
+        overflow: hidden;
     }
     
 /*footer styling*/
@@ -339,15 +338,14 @@
         display: flex;
         align-items: center;
         background: #fff;
-        padding: 20px 15px;
+        padding: 10px 15px;
         border-radius: 12px;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     }
     
     .navbar li {
         list-style: none;
-        margin: 0px 12px;
-        margin-left: 100px;
+        margin: 0px 8px;
     }
     
     .navbar li a {

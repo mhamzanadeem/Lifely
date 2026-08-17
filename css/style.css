@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* <-------------footer------------> */
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+}
+
 body {
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
@@ -97,7 +103,7 @@ ul {
 }
 
 footer {
-    margin-top: 300px;
+    margin-top: 0px;
     background: black;
     color: white;
     padding: 9px 20px;
@@ -144,15 +150,14 @@ footer {
     display: flex;
     align-items: center;
     background: #fff;
-    padding: 20px 15px;
+    padding: 10px 15px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar li {
     list-style: none;
-    margin: 0px 12px;
-    margin-left: 100px;
+    margin: 0px 8px;
 }
 
 .navbar li a {
@@ -214,8 +219,8 @@ footer {
 #home {
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
-    height: 900px;
+    padding: 3px 20px;
+    height: 42vh;
     justify-content: center;
     align-items: center;
 }
@@ -235,30 +240,30 @@ footer {
 #home h1 {
     color: white;
     text-align: center;
-    font-size: 10rem;
+    font-size: 4rem;
     font-family: 'Bree Serif', serif;
 }
 
 #home p {
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 1.8rem;
     font-family: 'Bree Serif', serif;
 }
 
 
 .h-primary {
 
-    font-size: 3.8rem;
-    padding: 12px;
+    font-size: 2.2rem;
+    padding: 8px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     color: white;
 }
 
 .h-secondary {
-    font-size: 2.3rem;
-    padding: 12px;
+    font-size: 1.5rem;
+    padding: 8px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     color: white;
@@ -268,23 +273,25 @@ footer {
 
 
 #services {
-    margin: 50px;
+    margin: 20px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #services .box {
     border: 2px solid brown;
-    width: 800px;
-    padding: 34px;
-    margin: 3px 150px;
+    width: 380px;
+    padding: 20px;
+    margin: 15px;
     border-radius: 28px;
     background: #181818;
 
 }
 
 #services .box img {
-    height: 300px;
-    width: 500px;
+    height: 180px;
+    width: 300px;
     margin: auto;
     display: block;
 

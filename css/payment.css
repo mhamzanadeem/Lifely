@@ -26,13 +26,14 @@ img.background {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
-    min-height: 100vh;
+    padding: 15px;
+    min-height: 0;
 }
 
 .container1 form {
-    padding: 20px;
+    padding: 15px;
     width: 900px;
+    max-width: 100%;
     background: rgb(151, 149, 149);
     box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
 }
@@ -54,7 +55,7 @@ img.background {
 }
 
 .container1 form .row .col .inputBox {
-    margin: 15px 0;
+    margin: 8px 0;
 }
 
 .container1 form .row .col .inputBox span {

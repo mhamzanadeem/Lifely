@@ -36,7 +36,7 @@ ul {
 
 .footer {
     background-color: #24262b;
-    padding: 30px 0;
+    padding: 12px 0;
 }
 
 .footer-col {
@@ -45,10 +45,10 @@ ul {
 }
 
 .footer-col h4 {
-    font-size: 18px;
+    font-size: 15px;
     color: #ffffff;
     text-transform: capitalize;
-    margin-bottom: 35px;
+    margin-bottom: 18px;
     font-weight: 500;
     position: relative;
 }
@@ -57,7 +57,7 @@ ul {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -6px;
     background-color: #e91e63;
     height: 2px;
     box-sizing: border-box;
@@ -65,11 +65,11 @@ ul {
 }
 
 .footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .footer-col ul li a {
-    font-size: 16px;
+    font-size: 13px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
@@ -86,12 +86,12 @@ ul {
 
 .footer-col .social-links a {
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 10px 10px 0;
+    margin: 0 8px 8px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 32px;
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
@@ -150,20 +150,20 @@ footer {
     display: flex;
     align-items: center;
     background: #fff;
-    padding: 10px 15px;
+    padding: 6px 15px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar li {
     list-style: none;
-    margin: 0px 8px;
+    margin: 0px 6px;
 }
 
 .navbar li a {
     position: relative;
     color: #333;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     padding: 6px 0;
     text-decoration: none;
@@ -219,8 +219,9 @@ footer {
 #home {
     display: flex;
     flex-direction: column;
+    position: relative;
     padding: 3px 20px;
-    height: 42vh;
+    height: 30vh;
     justify-content: center;
     align-items: center;
 }
@@ -240,30 +241,30 @@ footer {
 #home h1 {
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Bree Serif', serif;
 }
 
 #home p {
     color: white;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: 'Bree Serif', serif;
 }
 
 
 .h-primary {
 
-    font-size: 2.2rem;
-    padding: 8px;
+    font-size: 1.7rem;
+    padding: 6px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     color: white;
 }
 
 .h-secondary {
-    font-size: 1.5rem;
-    padding: 8px;
+    font-size: 1.1rem;
+    padding: 6px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     color: white;
@@ -273,7 +274,7 @@ footer {
 
 
 #services {
-    margin: 20px;
+    margin: 8px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -281,17 +282,17 @@ footer {
 
 #services .box {
     border: 2px solid brown;
-    width: 380px;
-    padding: 20px;
-    margin: 15px;
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
     border-radius: 28px;
     background: #181818;
 
 }
 
 #services .box img {
-    height: 180px;
-    width: 300px;
+    height: 130px;
+    width: 220px;
     margin: auto;
     display: block;
 
@@ -303,8 +304,8 @@ footer {
 
 .submit-btn {
     width: 100%;
-    padding: 12px;
-    font-size: 17px;
+    padding: 8px;
+    font-size: 14px;
     background: #27ae60;
     color: #fff;
     margin-top: 5px;
